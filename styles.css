@@ -1,0 +1,96 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html, body {
+    background-image: url('https://www.zhk.co.il/wp-content/uploads/2017/10/%D7%90%D7%95%D7%A8%D7%98-%D7%91%D7%A8%D7%90%D7%95%D7%93%D7%94-%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%99%D7%97%D7%A6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 555px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 450px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+.card-header h3 {
+    color: white;
+}
+
+
+.input-group-prepend span {
+    width: 50px;
+    margin: auto;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+    .login_btn:hover {
+        color: black;
+        background-color: white;
+    }
+
+.gotologin_btn {
+    color: black;
+    background-color: #81cccb;
+    width: 120px;
+}
+    .gotologin_btn:hover {
+        color: black;
+        background-color: white;
+    }
+
+
+.signup_btn {
+    display: flex;
+    color: black;
+    background-color: #81cccb;
+    margin-left: 6px;
+}
+
+    .signup_btn:hover {
+        color: black;
+        background-color: white;
+    }
+
+
+.links {
+    color: white;
+}
+
+    .links a {
+        margin-left: 4px;
+    }
+
+
+.radio{
+    color: white;
+    margin: 10px;
+       
+}
+
+.radio label{
+    margin-left: 10px;
+}

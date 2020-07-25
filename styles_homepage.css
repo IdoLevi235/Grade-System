@@ -1,0 +1,208 @@
+﻿#toCenter {
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 10%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f2f2f2; /*change it*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: lato;
+}
+
+h1, h3 {
+    color: black;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.table-condensed tr th {
+    border: 0px solid #6e7bd9;
+    color: white;
+    background-color: #6e7bd9;
+}
+
+.table-condensed, .table-condensed tr td {
+    border: 0px solid #000;
+}
+
+tr:nth-child(even) {
+    background: #f8f7ff
+}
+
+tr:nth-child(odd) {
+    background: #fff;
+}
+
+.centerHeaderText th {
+    text-align: center;
+}
+
+
+.avglbl{
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.container_contact input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+.container_contact input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    .container_contact input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+/* Add a background color and some padding around the form */
+.container_contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#page5 hr {
+    width:100%;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+}
+
+#page5 hr:after {
+        content: "\00a0"; 
+    }
+
+#page2 p{
+    align-content:center;
+    color:black;
+    margin-left: 25px;
+
+}
+#page2 h2{
+    align-content:center;
+    color:black;
+    margin-left: 10px;
+}
+#about_us{
+    align-content:center;
+    color:black;
+    margin-left:6px;
+   
+}
+
+#btn_addstudent{
+    margin:5px;
+    margin-left: 45%;
+    background-color: #97bf8c;
+    color: black;
+}
+
+
+#addStudent_lbl {
+    margin-right:20px;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+    .overlay:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+    .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .popup .close:hover {
+            color: #06D85F;
+        }
+
+    .popup .content {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}
+
+#noStudents {
+    color: #c2303f;
+    font-size: 18px;
+    font-weight:bold;
+
+}
